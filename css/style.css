@@ -10,12 +10,30 @@ body {
   font-family: 'Work Sans', sans-serif;
   font-size: 15px;
   color: #323232;
+  background-color: #e7e7e7d0;
+}
+.contactPageSocial {
+	padding-left: 10vw; 
+	padding-top: 5vh;
+}
+@media (max-width: 1200px) {
+	.contactPageSocial{
+		padding-left: 5vw; 
+		padding-top: 0vh;
+	}
+}
+@media (max-width: 992px) {
+	.contactPageSocial{
+		padding-left: 5vw; 
+		padding-top: 0vh;
+	}
 }
 
 @media (min-width: 992px) {
   body {
 	padding-top: 0px;
 	background-color: #e7e7e7d0;
+	
   }
 }
 
@@ -841,6 +859,20 @@ footer p {
     overflow: hidden;
 }	
 .hb-xs {
+    line-height: 37px;
+    font-size: 37px;
+    margin: 9.5px 0;
+}
+.hb-xs, .hb-xs::after, .hb-xs::before {
+    height: 37px;
+    width: 64px;
+}
+/* .hb-xs-margin {
+    margin: 5px;
+    display: inline-block;
+    overflow: hidden;
+}	
+.hb-xs {
     line-height: 18.5px;
     font-size: 18.5px;
     margin: 9.5px 0;
@@ -848,7 +880,7 @@ footer p {
 .hb-xs, .hb-xs::after, .hb-xs::before {
     height: 18.5px;
     width: 32px;
-}
+} */
 .spin,
 .spin-icon i {
 	-webkit-transition: -webkid-transform .25s  ease;

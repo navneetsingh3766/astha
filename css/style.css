@@ -1080,9 +1080,15 @@ footer p {
 
 .full-title{
 	padding: 100px 0px 0px 0px;
+	background: url(../images/img/contact-lg.jpg) no-repeat center;
+	position: relative;
+	background-size: cover;
+}
+/* .full-title{
+	padding: 100px 0px 0px 0px;
 	background: url(../images/all-title-bg.jpg) no-repeat center;
 	position: relative;
-}
+} */
 .full-title:before{
 	content: "";
 	background: rgba(0,0,0,0.5);
